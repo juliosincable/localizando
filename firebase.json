@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "localizando",
     "public": "build",  
     "ignore": [
       "firebase.json",
