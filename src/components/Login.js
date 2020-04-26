@@ -5,6 +5,9 @@ import { Container } from 'react-bootstrap';
 import { Row } from 'react-bootstrap';
 import { Col } from 'react-bootstrap';
 
+import logo from './logo.svg'
+
+import '../App.css';
 
 
 
@@ -66,17 +69,28 @@ class Login extends Component {
             
 
         return (
-        <div>
+        <div className="App">
             <Container fluid>
      
-     <Row>
-     <Col  xs={12} sm={4} md={4} lg={4} xl={4}>        
+<Row>
+
+      
+      <Col xs={12} sm={4} md={4} lg={4} xl={4}>
+      
+      <br /><br />
+  <img src={logo} width="100px" height="100px" alt="logo" />
+      </Col>
+      
+      <Col xs={12} sm={4} md={4} lg={4} xl={4}>
      
-     </Col>
-     <Col  xs={12} sm={4} md={4} lg={4} xl={4}>         </Col>
-     <Col  xs={12} sm={4} md={4} lg={4} xl={4}>
-     
-     <div className="form_block">
+  Nosotros: 
+ <br />Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+      </Col>
+        
+
+<Col xs={12} sm={4} md={4} lg={4} xl={4}>
+
+<div className="form_block">
                 <div id="title">{this.state.formTitle}</div>
                 <div className="body">
                     {errorNotification}
@@ -97,10 +111,43 @@ class Login extends Component {
                 </div>
             </div>
 
-                
-                </Col>
 
-            </Row>
+<br />
+
+
+
+
+</Col>
+  </Row>
+
+
+ 
+  <Row>
+  
+  <Col><h6>
+  Nosotros: 
+  </h6><br />Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</Col>
+  <Col><h6>
+  Nosotros: 
+  </h6><br />Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</Col> 
+  <Col><h6>
+  Nosotros: 
+  </h6><br />Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</Col>
+  <Col><h6>
+  Nosotros: 
+  </h6><br />Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</Col> 
+  
+  </Row>
+  
+
+  <br />
+  <Row>
+  <Col>
+  <h6>
+  Derechos Reservados Localizando, C. A. 
+  </h6>
+    </Col>
+  </Row>
             
             </Container>
             

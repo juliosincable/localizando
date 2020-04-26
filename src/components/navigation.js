@@ -27,7 +27,7 @@ export default class Navigation extends Component {
                     
                     </div>
                     <div>
-                    <Link className="navbar-brand" to="/buscar">
+                    <Link className="navbar-brand" to="/home">
                          
                          <img src={search} width="25px" height="25px" alt="logo" /> 
                  </Link>

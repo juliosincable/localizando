@@ -4,7 +4,7 @@ import Navigation from './components/navigation'
 
 import Inicio from './components/Inicio'
 import Entrando from './components/entrando'
-import Home from './components/home'
+import Exit from './components/Exit'
 import Servicio from './components/servicio'
 import Searching from './components/searching'
 import Buscar from './components/buscar'
@@ -16,7 +16,7 @@ function App() {
     <Router>
       <Navigation />
       <div>
-        <Route path="/Home" component={Home} />
+        <Route path="/Home" component={Exit} />
         <Route path="/Servicio" component={Servicio} />
         <Route path="/entrando" component={Entrando} />
         <Route path="/searching" component={Searching} />
